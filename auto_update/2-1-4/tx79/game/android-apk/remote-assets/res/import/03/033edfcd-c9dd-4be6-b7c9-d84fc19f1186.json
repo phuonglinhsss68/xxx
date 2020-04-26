@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"HideLotoAnimation","_duration":0.35,"curveData":{"props":{"y":[{"frame":0,"value":-140},{"frame":0.3333333333333333,"value":66.6}]},"paths":{"loto-spine":{"props":{"active":[{"frame":0.3333333333333333,"value":true},{"frame":0.35,"value":false}]}}}}}

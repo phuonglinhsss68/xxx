@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"BauCuaAnimation","_duration":0.38333333333333336,"wrapMode":22,"curveData":{"props":{"scale":[{"frame":0,"value":{"__type__":"cc.Vec2","x":1,"y":1}},{"frame":0.38333333333333336,"value":{"__type__":"cc.Vec2","x":1.1,"y":1.1}}]}}}

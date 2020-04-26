@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"LoadingAnimation","_duration":1,"speed":0.6,"wrapMode":2,"curveData":{"props":{"angle":[{"frame":0,"value":0,"curve":[0.4,0.4,0.6,0.6]},{"frame":1,"value":-360}]}}}

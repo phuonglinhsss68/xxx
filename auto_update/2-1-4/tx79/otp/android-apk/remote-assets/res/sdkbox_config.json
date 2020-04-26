@@ -1,0 +1,14 @@
+{
+    "android": {
+        "Firebase": {}, 
+        "Facebook": {
+            "debug": false
+        }
+    }, 
+    "ios": {
+        "Firebase": {}, 
+        "Facebook": {
+            "debug": true
+        }
+    }
+}

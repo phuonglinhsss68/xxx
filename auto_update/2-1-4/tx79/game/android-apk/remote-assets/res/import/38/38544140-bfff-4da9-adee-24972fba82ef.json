@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"ScaleAnimation","_duration":0.4166666666666667,"wrapMode":22,"curveData":{"props":{"scaleX":[{"frame":0,"value":1},{"frame":0.4166666666666667,"value":1.2}],"scaleY":[{"frame":0,"value":1},{"frame":0.4166666666666667,"value":1.2}]}}}

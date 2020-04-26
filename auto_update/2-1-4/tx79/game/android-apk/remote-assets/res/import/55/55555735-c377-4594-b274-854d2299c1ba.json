@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"WaitingAnimation","_duration":4,"wrapMode":2,"curveData":{"comps":{"cc.Label":{"string":[{"frame":0,"value":"Vui lòng chờ"},{"frame":1,"value":"Vui lòng chờ ."},{"frame":2,"value":"Vui lòng chờ . ."},{"frame":3,"value":"Vui lòng chờ . . ."},{"frame":4,"value":"Vui lòng chờ"}]}}}}
