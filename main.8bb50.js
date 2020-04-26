@@ -280,10 +280,10 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.e5bf2.js';
+        var bundledScript = settings.debug ? 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/project.dev.js' : 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/project.e5bf2.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
-                return 'src/' + x;
+                return 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/' + x;
             });
             jsList.push(bundledScript);
         }
@@ -305,8 +305,8 @@ window.boot = function () {
 
     // init assets
     cc.AssetLibrary.init({
-        libraryPath: 'res/import',
-        rawAssetsBase: 'res/raw-',
+        libraryPath: 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/res/import',
+        rawAssetsBase: 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/res/raw-',
         rawAssets: settings.rawAssets,
         packedAssets: settings.packedAssets,
         md5AssetsMap: settings.md5AssetsMap,
@@ -361,7 +361,7 @@ if (window.document) {
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.c2b34.js';
+    cocos2d.src = window._CCSettings.debug ? 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/cocos2d-js.js' : 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/cocos2d-js-min.c2b34.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
