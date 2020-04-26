@@ -280,10 +280,10 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/project.dev.js' : 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/project.e5bf2.js';
+        var bundledScript = settings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/src/project.dev.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/src/project.e5bf2.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
-                return 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/src/' + x;
+                return 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/src/' + x;
             });
             jsList.push(bundledScript);
         }
@@ -305,8 +305,8 @@ window.boot = function () {
 
     // init assets
     cc.AssetLibrary.init({
-        libraryPath: 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/res/import',
-        rawAssetsBase: 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/res/raw-',
+        libraryPath: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/res/import',
+        rawAssetsBase: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/res/raw-',
         rawAssets: settings.rawAssets,
         packedAssets: settings.packedAssets,
         md5AssetsMap: settings.md5AssetsMap,
@@ -361,7 +361,7 @@ if (window.document) {
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/cocos2d-js.js' : 'https://storage.googleapis.com/cdntx79club.blogspot.com/web-cdn/cocos2d-js-min.c2b34.js';
+    cocos2d.src = window._CCSettings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/cocos2d-js.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/cocos2d-js-min.c2b34.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
