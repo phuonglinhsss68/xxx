@@ -361,7 +361,7 @@ if (window.document) {
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.c2b34.js';
+    cocos2d.src = window._CCSettings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v038/cocos2d-js.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v038/cocos2d-js-min.c2b34.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
