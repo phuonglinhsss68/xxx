@@ -280,10 +280,10 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/project.dev.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/project.151f1.js';
+        var bundledScript = settings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/project.dev.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/project.0bc05.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
-                return 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/' + x;
+                return 'src/' + x;
             });
             jsList.push(bundledScript);
         }
@@ -305,8 +305,8 @@ window.boot = function () {
 
     // init assets
     cc.AssetLibrary.init({
-        libraryPath: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/res/import',
-        rawAssetsBase: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/res/raw-',
+        libraryPath: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/res/import',
+        rawAssetsBase: 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/res/raw-',
         rawAssets: settings.rawAssets,
         packedAssets: settings.packedAssets,
         md5AssetsMap: settings.md5AssetsMap,
@@ -316,7 +316,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.567c5.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.bc627.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();
@@ -342,13 +342,13 @@ if (false) {
 else if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/settings.96db1.js');
-        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/cocos2d-runtime.js');
+        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/settings.96db1.js');
+        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/cocos2d-runtime.js');
         require('jsb-adapter/engine/index.js');
     }
     else {
-        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/settings.96db1.js');
-        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/src/cocos2d-jsb.js');
+        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/settings.96db1.js');
+        require('https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/src/cocos2d-jsb.js');
         require('jsb-adapter/jsb-engine.js');
     }
     window.boot();
@@ -361,7 +361,7 @@ if (window.document) {
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/cocos2d-js.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v064/cocos2d-js-min.c2b34.js';
+    cocos2d.src = window._CCSettings.debug ? 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/cocos2d-js.js' : 'https://cdn.jsdelivr.net/gh/phuonglinhsss68/xxx@master/v066/cocos2d-js-min.c2b34.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
